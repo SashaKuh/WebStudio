@@ -320,7 +320,7 @@ img {
     }
 }
 
-/*? ===================== FEATURES ===================== */
+/*? ===================== PHOTO ===================== */
 
 .featuress {
     padding-top: 96px;
@@ -472,15 +472,6 @@ img {
     color: #404BBF;
 }
 
-
-
-
-
-
-
-
-
-
 /*? ===================== FOOTER ===================== */
 
 .footer {
@@ -623,9 +614,7 @@ img {
     fill: #fff;
 }
 
-.footer-soc {
-    display: block;
-  }
+
 
 /*? ===================== MODAL-WINDOW ===================== */
 
@@ -935,21 +924,19 @@ img {
     .contacts-list .tel {
         font-size: calc(100vw * 5/54 - 98px/27);
     }
-
-    /*? ===================== FOOTER ===================== */
-
-    .form-subscribe .mail {
-        width: 100%;
-    }
-
     /*? ===================== CUSTOMERS ===================== */
 
     .customers>.container {
         max-width: 190px;
     }
-
     .customers-list {
         justify-content: center;
+    }
+
+    /*? ===================== FOOTER ===================== */
+
+    .form-subscribe .mail {
+        width: 100%;
     }
 }
 
@@ -958,7 +945,7 @@ img {
     /*? ===================== FOOTER ===================== */
 
     .form-subscribe .mail {
-        width: 100%;
+        width: 398px;
     }
 
     /*? ===================== MODAL ===================== */
@@ -1022,6 +1009,29 @@ img {
         gap: 40px;
     }
 
+    
+   /*? ===================== PHOTO ===================== */
+
+    .featuress>.container {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .featuress-list .item:not(:first-child) {
+        margin-top: 72px;
+    }
+
+    .featuress-list .list-title {
+        text-align: center;
+    }
+
+    /*? ===================== TEAM ===================== */
+
+    .team-cards {
+        flex-direction: column;
+    }
+
     /*? ===================== FOOTER ===================== */
 
     .footer>.container {
@@ -1052,27 +1062,6 @@ img {
         margin-top: 16px;
     }
 
-   /*? ===================== FEATURES ===================== */
-
-    .featuress>.container {
-        width: fit-content;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .featuress-list .item:not(:first-child) {
-        margin-top: 72px;
-    }
-
-    .featuress-list .list-title {
-        text-align: center;
-    }
-
-    /*? ===================== TEAM ===================== */
-
-    .team-cards {
-        flex-direction: column;
-    }
 
     /*? ===================== PORTFOLIO ===================== */
 
@@ -1166,24 +1155,6 @@ img {
         color: #404BBF;
     }
 
-    /*? ===================== FOOTER ===================== */
-
-    .footer-soc {
-        margin-left: 24px;
-    }
-
-    .form-subscribe .form-elements {
-        display: flex;
-    }
-
-    .form-subscribe .mail {
-        width: 264px;
-    }
-
-    .subscribe-button {
-        margin-left: 24px;
-    }
-
     /*? ===================== HERO ===================== */
 
     .hero {
@@ -1209,7 +1180,7 @@ img {
         }
     }
 
-    /*? ===================== FEATURES ===================== */
+    /*? ===================== PHOTO ===================== */
 
     .featuress-list {
         display: flex;
@@ -1233,6 +1204,24 @@ img {
 
     .customers-item {
         max-width: 168px;
+    }
+
+    /*? ===================== FOOTER ===================== */
+
+    .footer-soc {
+        margin-left: 24px;
+    }
+
+    .form-subscribe .form-elements {
+        display: flex;
+    }
+
+    .form-subscribe .mail {
+        width: 264px;
+    }
+
+    .subscribe-button {
+        margin-left: 24px;
     }
 
     /*? ===================== MODAL ===================== */
@@ -1274,6 +1263,13 @@ img {
         margin-top: 12px;
     }
 
+    /*? ===================== PHOTO ===================== */
+
+    .featuress-list {
+        flex-wrap: wrap;
+        row-gap: 72px;
+    }
+
     /*? ===================== FOOTER ===================== */
 
     .footer>.container {
@@ -1285,20 +1281,14 @@ img {
     .footer-soc {
         margin-left: 24px;
     }
-
-    /*? ===================== FEATURES ===================== */
-
-    .featuress-list {
-        flex-wrap: wrap;
-        row-gap: 72px;
-    }
 }
 
 @media screen and (max-width: 1157px) {
 
-    /*? ===================== FOOTER ===================== */
+    
 
-    .footer-form {
+
+    .form-container {
         margin-top: 72px;
     }
 
@@ -1310,7 +1300,6 @@ img {
 }
 
 @media screen and (min-width: 1158px) {
-
     .team>.container,
     .customers>.container,
     .container {
@@ -1342,21 +1331,6 @@ img {
         line-height: 1.5;
     }
 
-    /*? ===================== FOOTER ===================== */
-
-    .footer {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    .footer-soc {
-        margin-left: 120px;
-    }
-
-    .footer .footer-form {
-        margin-left: auto;
-    }
-
     /*? ===================== HERO ===================== */
 
     .hero {
@@ -1383,17 +1357,15 @@ img {
         margin-top: 16px;
     }
 
-    /*? ===================== FEATURES ===================== */
+    /*? ===================== PHOTO ===================== */
 
     .featuress {
         padding-top: 120px;
         padding-bottom: 60px;
     }
-
     .featuress-list {
         max-width: 1128px;
     }
-
     .featuress-list .list-title {
         margin-top: 8px;
 
@@ -1401,16 +1373,13 @@ img {
         font-size: 20px;
         line-height: calc(24/20);
     }
-
     .featuress-list .text {
         font-weight: 400;
         font-size: 16px;
     }
-
     .featuress-list .item {
         width: 264px;
     }
-
     .featuress-list .icon-container {
         display: block;
         background-color: #F4F4FD;
@@ -1427,7 +1396,6 @@ img {
         padding-top: 60px;
         padding-bottom: 120px;
     }
-
     .example-list {
         display: flex;
         justify-content: space-between;
@@ -1439,6 +1407,24 @@ img {
 
     .customers>.customers-list {
         justify-content: space-between;
+    }
+
+    /*? ===================== FOOTER ===================== */
+    .footer>.container{
+        flex-wrap: nowrap;
+    }
+    .form-container{
+        padding-left: 80px;
+    }
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer-soc {
+        margin-left: 120px;
+    }
+    .footer .footer-form {
+        margin-left: auto;
     }
 }
 
